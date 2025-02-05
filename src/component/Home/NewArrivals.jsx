@@ -40,11 +40,11 @@ const NewArrivals = () => {
         }}
         breakpoints={{
           400: {
-            slidesPerView: 3,
+            slidesPerView: 1,
             spaceBetween: 30
           },
           768: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 30
           },
           1024: {
@@ -57,7 +57,7 @@ const NewArrivals = () => {
           },
         }}
         modules={[Autoplay, Pagination]}
-        className="h-[450px] sm:h-[400px] md:h-[450px]"
+        className="h-[600px] sm:h-[100px] md:h-[450px]"
         style={{
           '--swiper-pagination-bottom': '0px',
           '--swiper-pagination-color': '#000',

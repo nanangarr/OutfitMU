@@ -41,7 +41,7 @@ const RelatedProducts = () => {
         }}
         breakpoints={{
           400: {
-            slidesPerView: 3,
+            slidesPerView: 1,
             spaceBetween: 30
           },
           768: {
@@ -58,7 +58,7 @@ const RelatedProducts = () => {
           },
         }}
         modules={[Autoplay]}
-        className="h-[450px] sm:h-[400px] md:h-[450px]"
+        className="h-[600px] sm:h-[400px] md:h-[450px]"
       >
         {relatedProducts.map((product) => (
           <SwiperSlide key={product._id}>
